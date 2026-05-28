@@ -101,7 +101,10 @@ SwiftMT103Parser/
 git clone https://github.com/Kokata23/swift-mt103-parser.git
 cd swift-mt103-parser
 
-# 2. Стартирай приложението
+# 2. Добави .NET към PATH (ако не е инсталиран глобално)
+export PATH=$HOME/.dotnet:$PATH
+
+# 3. Стартирай приложението
 dotnet run
 ```
 
